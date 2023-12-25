@@ -33,7 +33,7 @@
 
     typedef enum {Rx = -1, Nx = 0, Tx = +1} xfer_dir_t;
     typedef enum {NONE, UART} io_port_t;
-    typedef enum {SUCCED, FAILED} result_t;
+    typedef enum {SUCCED, FAILED, BORTED, TIMEED} result_t;
     typedef enum {OFF, ON} state_t;
     typedef enum {FALSE, TRUE} bool_t;
     typedef enum {YES, NO} ask_t;
